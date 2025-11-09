@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Cyber-News Enhanced - Professional Cybersecurity Feed Aggregator
-Optimizado para análisis de inteligencia de amenazas y monitoreo de vulnerabilidades
+Optimizado para análisis de inteligencia de amenazas y monitorización de vulnerabilidades
 """
 import argparse
 import hashlib
