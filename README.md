@@ -104,11 +104,7 @@ cd cyberintel-feed-aggregator
 # Instalar dependencias
 pip install flask feedparser opml python-dateutil requests
 
-# Inicializar base de datos
-python grto3.py initdb
 
-# (Opcional) Importar feeds desde OPML
-python grto3.py import feeds.opml
 ```
 
 ## Uso
@@ -117,34 +113,29 @@ python grto3.py import feeds.opml
 
 ```bash
 # Iniciar servidor web (puerto 8000 por defecto)
-python grto3.py runserver
+CyberIntel Feed Aggregator.py 
 
-# Servidor personalizado
-python grto3.py runserver --host 0.0.0.0 --port 5000 --no-debug
 ```
 
 ### Importar feeds
 
 ```bash
 # Importar desde archivo OPML
-python grto3.py import mis_feeds.opml
+Desde el dashboard web
 ```
 
 ### Actualizar feeds
 
 ```bash
 # Actualizar todos los feeds activos
-python grto3.py refresh
-
-# Actualizar un feed específico
-python grto3.py refresh --feed-id 5
+desde el menu feeds
 ```
 
 ### Inicialización rápida
 
 ```bash
 # Sin argumentos inicia el servidor automáticamente
-python grto3.py
+python CyberIntel Feed Aggregator.py
 ```
 
 ## Estructura de base de datos
